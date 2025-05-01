@@ -7,8 +7,50 @@ A minimal TypeScript package template that can be used both locally and publishe
 - Written in TypeScript
 - Builds to modern ES modules
 - Provides TypeScript type definitions
+- ESLint for code linting
+- Prettier for code formatting
+- Vitest for testing
 - Minimal dependencies
 - Can be used locally or published to NPM
+
+## Development
+
+### Setup
+
+1. Clone this repository:
+
+   ```bash
+   git clone <your-repo-url>
+   cd example-package
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start development:
+
+   ```bash
+   npm run dev
+   ```
+
+### Available Scripts
+
+- `npm run build` - Build the package
+- `npm run dev` - Run in development mode with watch
+- `npm start` - Run the package
+- `npm run debug` - Run with debugger attached
+- `npm test` - Run tests
+- `npm run test:watch` - Run tests in watch mode
+- `npm run test:coverage` - Run tests with coverage
+- `npm run test:ui` - Run tests with UI
+- `npm run lint` - Run ESLint
+- `npm run lint:fix` - Fix ESLint errors
+- `npm run format` - Format code with Prettier
+- `npm run format:check` - Check code formatting
+- `npm run validate` - Run all checks (types, lint, format, tests)
 
 ## Installation
 
