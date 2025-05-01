@@ -70,16 +70,28 @@ npm install example-package
 
 ```typescript
 // TypeScript
-import { example } from 'example-package';
+import { example, Person } from 'example-package';
 
-example();
+// Type is fully supported in TypeScript
+const person: Person = {
+  name: 'John Doe',
+  age: 30
+};
+
+example(person);
 ```
 
 ```javascript
 // JavaScript
 import { example } from 'example-package';
 
-example();
+// Types are not visible in JavaScript but still provide runtime validation
+const person = {
+  name: 'John Doe',
+  age: 30
+};
+
+example(person);
 ```
 
 ## Publishing to NPM
