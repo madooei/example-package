@@ -13,6 +13,24 @@ A minimal TypeScript package template that can be used both locally and publishe
 - Minimal dependencies
 - Can be used locally or published to NPM
 
+## Package Name and Scope
+
+This package uses the npm scope `@madooei`. When using this template for your own package:
+
+1. Change the package name in `package.json`:
+   ```json
+   {
+     "name": "@your-scope/your-package-name"
+   }
+   ```
+
+2. To publish a scoped package:
+   - Create an npm account if you haven't already
+   - Create your scope (can be your npm username)
+   - When first publishing: `npm publish --access public`
+
+Note: Private scoped packages require a paid npm account. Public scoped packages are free but must be explicitly published with `--access public`.
+
 ## Installation
 
 ### Local Development (Without Publishing to NPM)

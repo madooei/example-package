@@ -1,5 +1,5 @@
 {
-  "name": "example-package",
+  "name": "@madooei/example-package",
   "version": "1.0.0",
   "description": "A TypeScript package template with minimal setup. Can also be used locally via npm pack and tarball installation (see README).",
   "main": "dist/index.js",
