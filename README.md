@@ -12,7 +12,7 @@ This repository is a minimal template for TypeScript packages, designed for both
 
 ## Philosophy
 
-- **Portability:** Each package and example is self-contained. You can copy any package or example out of this repo and use it as a standalone project.
+- **Portability:** Each package and example is self-contained. You can copy any package or example out of this repo and use it as a standalone project. It is generally assumed that you open each package in your editor to work on it (rather than opening the entire repo).
 - **Simplicity:** We intentionally avoid monorepo tools (like workspaces or shared config files) to keep things simple and portable.
 - **Clarity:** The structure is easy to navigate, and each part of the repo has a clear purpose.
 
