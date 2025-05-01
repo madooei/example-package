@@ -1,0 +1,27 @@
+{
+  "name": "example-package",
+  "version": "1.0.0",
+  "description": "A TypeScript package template with minimal setup",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsx --no-warnings ./src/index.ts",
+    "debug": "tsx --inspect-brk ./src/index.ts",
+    "dev": "tsx watch ./src/index.ts",
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "tsx": "^4.19.4",
+    "typescript": "^5.0.0"
+  }
+}
