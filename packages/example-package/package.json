@@ -12,6 +12,7 @@
     "start": "tsx --no-warnings ./src/index.ts",
     "debug": "tsx --inspect-brk ./src/index.ts",
     "dev": "tsx watch ./src/index.ts",
+    "prebuild": "npm run validate",
     "build": "tsc",
     "prepublishOnly": "npm run build",
     "type-check": "tsc --noEmit",
@@ -28,7 +29,8 @@
     "clean": "rm -rf dist coverage",
     "clean:all": "rm -rf dist coverage node_modules",
     "link": "npm link",
-    "unlink": "npm unlink"
+    "unlink": "npm unlink",
+    "release": "standard-version"
   },
   "keywords": [],
   "author": "Your Name <your@email.com>",
@@ -44,6 +46,7 @@
     "tsx": "^4.19.4",
     "typescript": "^5.0.0",
     "typescript-eslint": "^8.31.1",
-    "vitest": "^3.1.2"
+    "vitest": "^3.1.2",
+    "standard-version": "^9.5.0"
   }
 }

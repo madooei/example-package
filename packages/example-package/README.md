@@ -173,4 +173,43 @@ Now anyone can install the package from NPM:
 
 ```bash
 npm install example-package
-``` 
+```
+
+## Release & Publish Workflow
+
+### Automated Versioning and Changelog
+
+This package uses [`standard-version`](https://github.com/conventional-changelog/standard-version) to automate versioning and changelog updates. To create a new release:
+
+1. Make sure all your changes are committed.
+
+2. Run:
+
+   ```bash
+   npm run release
+   ```
+
+   This will:
+
+   - Bump the version in `package.json` according to your commit messages (using [Conventional Commits](https://www.conventionalcommits.org/)).
+   - Update `CHANGELOG.md` with a summary of changes.
+   - Create a new Git tag for the release.
+
+3. Push your changes and tags:
+
+   ```bash
+   git push && git push --tags
+   ```
+
+### Publishing to NPM via GitHub Actions
+
+This repository is set up to publish the package to NPM automatically using GitHub Actions:
+
+- **When does it publish?**
+  - When you create a new GitHub Release (from the GitHub UI or by pushing a tag and creating a release), or
+  - When you manually trigger the workflow from the GitHub Actions tab.
+
+- **What does it do?**
+  - Installs dependencies, runs all validation (type-check, lint, format, tests), builds the package, and publishes to NPM if all checks pass.
+
+**Note:** You must add your NPM token as a secret named `NPM_TOKEN` in your GitHub repository settings for publishing to work.
