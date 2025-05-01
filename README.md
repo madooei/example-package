@@ -1,4 +1,4 @@
-# Example Monorepo
+# Example Package
 
 This repository is a minimal template for TypeScript packages, designed for both internal and open-source use. It is structured as a monorepo to keep packages, examples, and documentation organized and portable.
 
@@ -24,7 +24,7 @@ This repository is a minimal template for TypeScript packages, designed for both
 
 ## Contributing
 
-Feel free to open issues or pull requests! If you want to add a new package or example, just create a new folder in the appropriate directory and include a README.
+Feel free to open issues or pull requests! If you want to add a new package or example, just create a new folder in the appropriate directory and include a README. (Check [`CONTRIBUTING.md`](CONTRIBUTING.md) for more information.)
 
 ---
 
