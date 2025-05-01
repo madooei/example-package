@@ -1,157 +1,31 @@
-# Example Package
+# Example Monorepo
 
-A minimal TypeScript package template that can be used both locally and published to NPM.
+This repository is a minimal template for TypeScript packages, designed for both internal and open-source use. It is structured as a monorepo to keep packages, examples, and documentation organized and portable.
 
-## Features
+## Repository Structure
 
-- Written in TypeScript
-- Builds to modern ES modules
-- Provides TypeScript type definitions
-- ESLint for code linting
-- Prettier for code formatting
-- Vitest for testing
-- Minimal dependencies
-- Can be used locally or published to NPM
+- `packages` — Contains the primary package(s) for this repository (e.g., `example-package`). Each package is self-contained and can be copied out and used independently.
+- `examples` — Contains examples of how to use the packages. Each example is a minimal, standalone project.
+- `docs` — Contains documentation for the primary package(s) and, optionally, for examples or other aspects of the repo.
+- `.github` — Contains GitHub-specific files, such as workflows and issue templates.
+- `.vscode` — Editor settings for VSCode (optional).
 
-## Development
+## Philosophy
 
-### Setup
+- **Portability:** Each package and example is self-contained. You can copy any package or example out of this repo and use it as a standalone project.
+- **Simplicity:** We intentionally avoid monorepo tools (like workspaces or shared config files) to keep things simple and portable.
+- **Clarity:** The structure is easy to navigate, and each part of the repo has a clear purpose.
 
-1. Clone this repository:
+## How to Use This Repo
 
-   ```bash
-   git clone <your-repo-url>
-   cd example-package
-   ```
+- To work on a package, go to `packages/<package-name>` and follow its README.
+- To try an example, go to `examples/<example-name>` and follow its README.
+- For documentation, see the `docs` folder.
 
-2. Install dependencies:
+## Contributing
 
-   ```bash
-   npm install
-   ```
+Feel free to open issues or pull requests! If you want to add a new package or example, just create a new folder in the appropriate directory and include a README.
 
-3. Start development:
+---
 
-   ```bash
-   npm run dev
-   ```
-
-### Available Scripts
-
-- `npm run build` - Build the package
-- `npm run dev` - Run in development mode with watch
-- `npm start` - Run the package
-- `npm run debug` - Run with debugger attached
-- `npm test` - Run tests
-- `npm run test:watch` - Run tests in watch mode
-- `npm run test:coverage` - Run tests with coverage
-- `npm run test:ui` - Run tests with UI
-- `npm run lint` - Run ESLint
-- `npm run lint:fix` - Fix ESLint errors
-- `npm run format` - Format code with Prettier
-- `npm run format:check` - Check code formatting
-- `npm run validate` - Run all checks (types, lint, format, tests)
-
-## Installation
-
-### Local Development (Without Publishing to NPM)
-
-There are two ways to use this package locally:
-
-#### Option 1: Using npm link
-
-1. Clone this repository:
-
-   ```bash
-   git clone <your-repo-url>
-   cd example-package
-   ```
-
-2. Install dependencies and build:
-
-   ```bash
-   npm install
-   npm run build
-   ```
-
-3. Create a global link:
-
-   ```bash
-   npm link
-   ```
-
-4. In your project where you want to use this package:
-
-   ```bash
-   npm link example-package
-   ```
-
-#### Option 2: Using local path
-
-In your project's package.json, add this package as a dependency using the local path:
-
-```json
-{
-  "dependencies": {
-    "example-package": "file:/absolute/path/to/example-package"
-  }
-}
-```
-
-Then run `npm install` in your project.
-
-### Installing from NPM (After Publishing)
-
-Once published to NPM, the package can be installed using:
-
-```bash
-npm install example-package
-```
-
-## Usage
-
-```typescript
-// TypeScript
-import { example, Person } from 'example-package';
-
-// Type is fully supported in TypeScript
-const person: Person = {
-  name: 'John Doe',
-  age: 30
-};
-
-example(person);
-```
-
-```javascript
-// JavaScript
-import { example } from 'example-package';
-
-// Types are not visible in JavaScript but still provide runtime validation
-const person = {
-  name: 'John Doe',
-  age: 30
-};
-
-example(person);
-```
-
-## Publishing to NPM
-
-1. Build the package:
-
-   ```bash
-   npm run build
-   ```
-
-2. Publish to NPM:
-
-   ```bash
-   npm publish
-   ```
-
-3. In your project, install the package from NPM:
-
-   ```bash
-   npm install example-package
-   ```
+For package-specific instructions (installation, usage, development, publishing, etc.), see the README in `packages/example-package/`.
