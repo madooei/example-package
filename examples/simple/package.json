@@ -1,0 +1,21 @@
+{
+  "name": "example-simple-usage",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal example usage of example-package.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsx --no-warnings ./index.ts",
+    "build": "tsc",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "example-package": "file:../../../example-package"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "tsx": "^4.19.4",
+    "typescript": "^5.0.0"
+  }
+} 
