@@ -1,6 +1,6 @@
 {
   "name": "@madooei/example-package",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A TypeScript package template with minimal setup.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

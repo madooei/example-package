@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.3](https://github.com/madooei/example-package/compare/v1.0.2...v1.0.3) (2025-05-02)
+
+
+### Bug Fixes
+
+* update build and type-check scripts to use specific tsconfig file ([672854d](https://github.com/madooei/example-package/commit/672854db1d81a9a68bb387ae0ce3db6cb61d4a0a))
+
 ### [1.0.2](https://github.com/madooei/example-package/compare/v1.0.1...v1.0.2) (2025-05-02)
 
 
