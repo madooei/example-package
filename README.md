@@ -8,7 +8,6 @@ This repository is a minimal template for TypeScript packages, designed for both
 - `examples` — Contains examples of how to use the packages. Each example is a minimal, standalone project.
 - `docs` — Contains documentation for the primary package(s) and, optionally, for examples or other aspects of the repo.
 - `.github` — Contains GitHub-specific files, such as workflows and issue templates.
-- `.vscode` — Editor settings for VSCode (optional).
 
 ## Philosophy
 
