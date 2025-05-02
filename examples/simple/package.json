@@ -11,7 +11,7 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "example-package": "file:../../packages/example-package"
+    "@madooei/example-package": "file:../../packages/example-package"
   },
   "devDependencies": {
     "@types/node": "^22.15.3",
