@@ -1,6 +1,6 @@
-# Simple Example Usage
+# Simple Example Usage For `@madooei/example-package`
 
-This is a minimal example showing how to use `example-package` locally.
+This is a minimal example showing how to use `@madooei/example-package` locally.
 
 ## Setup
 

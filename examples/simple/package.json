@@ -1,9 +1,9 @@
 {
-  "name": "example-simple-usage",
+  "name": "example-package-demo",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Minimal example usage of example-package.",
+  "description": "Minimal example usage of @madooei/example-package.",
   "main": "index.ts",
   "scripts": {
     "start": "tsx --no-warnings ./index.ts",
