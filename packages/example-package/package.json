@@ -45,5 +45,13 @@
     "typescript-eslint": "^8.31.1",
     "vitest": "^3.1.2",
     "standard-version": "^9.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madooei/example-package.git"
+  },
+  "homepage": "https://madooei.github.io/example-package/",
+  "bugs": {
+    "url": "https://github.com/madooei/example-package/issues"
   }
 }

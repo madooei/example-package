@@ -1,6 +1,9 @@
-# example-package
+# Example Package
 
 A minimal TypeScript package template that can be used both locally and published to NPM.
+
+> [!TIP]
+> Refer to this package's docs ([source](../../docs/index.md) or [website](https://madooei.github.io/example-package/)) for how to use it.
 
 ## Features
 
@@ -12,26 +15,6 @@ A minimal TypeScript package template that can be used both locally and publishe
 - Vitest for testing
 - Minimal dependencies
 - Can be used locally or published to NPM
-
-## Package Name and Scope
-
-This package uses the npm scope `@madooei`. When using this template for your own package:
-
-1. Change the package name in `package.json`:
-
-   ```json
-   {
-     "name": "@your-scope/your-package-name"
-   }
-   ```
-
-2. To publish a scoped package:
-   - Create an npm account if you haven't already
-   - Create your scope (can be your npm username)
-   - When first publishing: `npm publish --access public`
-
-Note: Private scoped packages require a paid npm account. Public scoped packages are free but must be explicitly published with `--access public`.
-
 
 ## Development
 
@@ -66,30 +49,7 @@ Note: Private scoped packages require a paid npm account. Public scoped packages
 - `npm run validate` - Run all checks (types, lint, format, tests)
 - `npm run clean` - Clean the package (remove dist and coverage)
 - `npm run clean:all` - Clean the package and all dependencies (remove dist, coverage, and node_modules)
-- `npm run link` - Create a global link to the package
-- `npm run unlink` - Remove the global link to the package
-
-## Publishing to NPM
-
-Make sure you have a NPM account and are logged in. Then, in this directory, follow these steps:
-
-1. Build the package:
-
-   ```bash
-   npm run build
-   ```
-
-2. Publish to NPM:
-
-   ```bash
-   npm publish
-   ```
-
-Now anyone can install the package from NPM:
-
-```bash
-npm install example-package
-```
+- `npm run release` - Create a new release (bump version, update changelog, create tag)
 
 ## Release & Publish Workflow
 
@@ -128,4 +88,48 @@ This repository is set up to publish the package to NPM automatically using GitH
 - **What does it do?**
   - Installs dependencies, runs all validation (type-check, lint, format, tests), builds the package, and publishes to NPM if all checks pass.
 
-**Note:** You must add your NPM token as a secret named `NPM_TOKEN` in your GitHub repository settings for publishing to work.
+> [!NOTE]
+> You must add your NPM token as a secret named `NPM_TOKEN` in your GitHub repository settings for publishing to work.
+
+### Publishing to NPM Manually
+
+Make sure you have a NPM account and are logged in (you can use `npm login` to do this). Then, in this directory, follow these steps:
+
+1. Build the package:
+
+   ```bash
+   npm run build
+   ```
+
+2. Publish to NPM:
+
+   ```bash
+   npm publish
+   ```
+
+Now anyone can install the package from NPM:
+
+```bash
+npm install @madooei/example-package
+```
+
+## Package Name and Scope
+
+This package uses the npm scope `@madooei` which is my personal npm account. When using this template for your own package:
+
+1. Change the package name in `package.json`:
+
+   ```json
+   {
+     "name": "@your-scope/your-package-name"
+   }
+   ```
+
+2. To publish a scoped package:
+   - Create an npm account if you haven't already
+   - Create your scope (can be your npm username)
+   - When first publishing: `npm publish --access public`
+
+> [!NOTE]
+> Private scoped packages require a paid npm account. Public scoped packages are free but must be explicitly published with `--access public`.
+

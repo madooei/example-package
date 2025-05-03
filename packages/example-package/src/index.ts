@@ -1,8 +1,4 @@
-// Export your library's types
-export interface Person {
-  name: string;
-  age: number;
-}
+import { Person } from "./types";
 
 // Export your library's functionality here
 export const example = (person: Person) => {
@@ -19,3 +15,6 @@ export const example = (person: Person) => {
 
   console.log(`Hello ${person.name}, you are ${person.age} years old!`);
 };
+
+// Export the types so they can be accessed by other packages
+export { Person };
