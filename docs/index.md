@@ -1,6 +1,6 @@
-# example-package
+# Example Package
 
-The `@madooei/example-package` is a minimal TypeScript package template. It is designed to demonstrate how to structure, build, test, and publish a TypeScript package in a portable and easy-to-understand way.
+A minimal TypeScript package template. It is designed to demonstrate how to structure, build, test, and publish a TypeScript package in a portable and easy-to-understand way.
 
 Currently, this package only exports a simple function and a type as an example. 
 
