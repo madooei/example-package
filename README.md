@@ -2,6 +2,9 @@
 
 This repository is a minimal template for TypeScript packages, designed for both internal and open-source use. It is structured as a monorepo to keep packages, examples, and documentation organized and portable.
 
+> [!TIP]
+> For package-specific instructions (installation, usage, development, publishing, etc.), see the [README in `packages/example-package/`](packages/example-package/README.md).
+
 ## Repository Structure
 
 - `packages` — Contains the primary package(s) for this repository (e.g., `example-package`). Each package is self-contained and can be copied out and used independently.
@@ -25,6 +28,3 @@ This repository is a minimal template for TypeScript packages, designed for both
 
 Feel free to open issues or pull requests! If you want to add a new package or example, just create a new folder in the appropriate directory and include a README. (Check [`CONTRIBUTING.md`](CONTRIBUTING.md) for more information.)
 
----
-
-For package-specific instructions (installation, usage, development, publishing, etc.), see the README in `packages/example-package/`.
