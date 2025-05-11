@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/madooei/example-package/compare/v1.0.4...v1.1.0) (2025-05-11)
+
+
+### Features
+
+* initialize TypeScript playground with demo files and configuration ([b6321f3](https://github.com/madooei/example-package/commit/b6321f3e43e772260b1b35d6976c8b1b20b60969))
+
+
+### Bug Fixes
+
+* ensure newline at end of file for index.ts ([a4b80a3](https://github.com/madooei/example-package/commit/a4b80a37de2b987e719507ada5d06456d68701b9))
+* update validate script to use format:fix for improved linting ([160b779](https://github.com/madooei/example-package/commit/160b7793878824feb712b9636668c305792d4775))
+
 ### [1.0.4](https://github.com/madooei/example-package/compare/v1.0.3...v1.0.4) (2025-05-03)
 
 ### [1.0.3](https://github.com/madooei/example-package/compare/v1.0.2...v1.0.3) (2025-05-02)
