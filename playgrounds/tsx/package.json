@@ -1,0 +1,19 @@
+{
+  "name": "tsx-playground",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Trying out TypeScript Execute (tsx)",
+  "scripts": {
+    "demo-1": "tsx --no-warnings --watch ./demo-1.ts",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "tsx": "^4.19.4",
+    "typescript": "^5.0.0"
+  }
+}
