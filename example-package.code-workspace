@@ -8,11 +8,14 @@
 		},
 		{
 			"path": "playgrounds/tsx"
+		},
+		{
+			"path": "playgrounds/tsup"
 		}
 	],
 	"settings": {
 		"workbench.preferredDarkColorTheme": "Default Dark+",
-		"workbench.preferredLightColorTheme": "Apollo Midnight",
+		"workbench.preferredLightColorTheme": "Default Light+",
 		"workbench.colorTheme": "Default Dark+",
 		"window.autoDetectColorScheme": true,
 		"window.zoomLevel": 1,
