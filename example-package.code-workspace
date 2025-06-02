@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "packages/example-package"
+		},
+		{
+			"path": "examples/simple"
+		},
+		{
+			"path": "playgrounds/tsx"
+		}
+	],
+	"settings": {
+		"workbench.preferredDarkColorTheme": "Default Dark+",
+		"workbench.preferredLightColorTheme": "Apollo Midnight",
+		"workbench.colorTheme": "Default Dark+",
+		"window.autoDetectColorScheme": true,
+		"window.zoomLevel": 1,
+		"terminal.integrated.fontSize": 18,
+		"terminal.integrated.lineHeight": 1.8,
+		"terminal.integrated.fontFamily": "MonoLisa"
+	}
+}
