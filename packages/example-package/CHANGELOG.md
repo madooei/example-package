@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/madooei/example-package/compare/v1.2.0...v1.3.0) (2025-06-02)
+
+
+### Features
+
+* add TypeScript build configuration for example package ([4cf64b8](https://github.com/madooei/example-package/commit/4cf64b852c3d2693361a4c7161b8952afd93d2b2))
+
 ## [1.2.0](https://github.com/madooei/example-package/compare/v1.1.0...v1.2.0) (2025-06-02)
 
 
