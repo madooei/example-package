@@ -27,7 +27,6 @@ cd example-package-workspace
 - `docs` — Contains documentation for the primary package(s) and, optionally, for examples or other aspects of the repo.
 - `.github` — Contains GitHub-specific files, such as workflows and issue templates.
 
-
 ## Philosophy
 
 - **Portability:** Each package and example is self-contained. You can copy any package or example out of this repo and use it as a standalone project. It is generally assumed that you open each package in your editor to work on it (rather than opening the entire repo).
@@ -55,20 +54,20 @@ The `example-package-workspace.code-workspace` file can be customized to include
 
 ```json
 {
-	"folders": [
-		{
-			"path": "packages/example-package"
-		},
-		{
-			"path": "examples/simple"
-		},
-		{
-			"path": "playgrounds/tsx"
-		}
-	],
+  "folders": [
+    {
+      "path": "packages/example-package"
+    },
+    {
+      "path": "examples/simple"
+    },
+    {
+      "path": "playgrounds/tsx"
+    }
+  ],
   "settings": {
     // Add any workspace-specific settings here, for example:
-		"git.openRepositoryInParentFolders": "always"
+    "git.openRepositoryInParentFolders": "always"
   }
 }
 ```
@@ -76,4 +75,3 @@ The `example-package-workspace.code-workspace` file can be customized to include
 ## Contributing
 
 Feel free to open issues or pull requests! If you want to add a new package or example, just create a new folder in the appropriate directory and include a README. (Check [`CONTRIBUTING.md`](CONTRIBUTING.md) for more information.)
-
