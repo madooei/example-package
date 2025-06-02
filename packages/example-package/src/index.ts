@@ -16,5 +16,7 @@ export const example = (person: Person) => {
   console.log(`Hello ${person.name}, you are ${person.age} years old!`);
 };
 
-// Export the types so they can be accessed by other packages
-export { Person };
+// Export all types define in `types.ts` for TypeScript users
+export * from "./types";
+// If you want to be selective about what to export, you can do so like this:
+// export { Person } from "./types";
