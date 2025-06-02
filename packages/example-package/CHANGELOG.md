@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/madooei/example-package/compare/v1.1.0...v1.2.0) (2025-06-02)
+
+
+### Features
+
+* enhance workspace configuration with new playground path and update light theme ([3d4d306](https://github.com/madooei/example-package/commit/3d4d30676d758e3e1e5afaf72fae9562d8be15dd))
+* set up tsup playground with initial configuration and files ([5365862](https://github.com/madooei/example-package/commit/5365862c68d6446f7d41f3d565e14def8925936c))
+* update package configuration and dependencies for improved TypeScript support ([62a4fdb](https://github.com/madooei/example-package/commit/62a4fdbc3b9a838f5a7ad0afd1036abe9cdea05e))
+
 ## [1.1.0](https://github.com/madooei/example-package/compare/v1.0.4...v1.1.0) (2025-05-11)
 
 
