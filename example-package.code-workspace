@@ -18,6 +18,7 @@
 		"window.zoomLevel": 1,
 		"terminal.integrated.fontSize": 18,
 		"terminal.integrated.lineHeight": 1.8,
-		"terminal.integrated.fontFamily": "MonoLisa"
+		"terminal.integrated.fontFamily": "MonoLisa",
+		"git.openRepositoryInParentFolders": "always"
 	}
 }

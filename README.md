@@ -67,7 +67,8 @@ The `example-package-workspace.code-workspace` file can be customized to include
 		}
 	],
   "settings": {
-    // Add any workspace-specific settings here
+    // Add any workspace-specific settings here, for example:
+		"git.openRepositoryInParentFolders": "always"
   }
 }
 ```
