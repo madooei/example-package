@@ -1,4 +1,4 @@
-import { Person } from "./types";
+import { type Person } from "./types";
 
 // Export your library's functionality here
 export const example = (person: Person) => {
@@ -19,4 +19,4 @@ export const example = (person: Person) => {
 // Export all types define in `types.ts` for TypeScript users
 export * from "./types";
 // If you want to be selective about what to export, you can do so like this:
-// export { Person } from "./types";
+// export { type Person } from "./types";
