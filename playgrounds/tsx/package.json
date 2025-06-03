@@ -5,8 +5,7 @@
   "type": "module",
   "description": "Trying out TypeScript Execute (tsx)",
   "scripts": {
-    "demo-1": "tsx --no-warnings --watch ./demo-1.ts",
-    "type-check": "tsc --noEmit"
+    "dev": "tsx --no-warnings --watch ./src/index.ts"
   },
   "dependencies": {
 

@@ -8,8 +8,8 @@ This is a playground for testing how [tsx](https://tsx.is/) works.
 npm install
 ```
 
-## Run the Demos
+## Run the Hello World Example
 
 ```bash
-npm run demo-1 # or demo-2, etc.
+npm run dev
 ``` 
