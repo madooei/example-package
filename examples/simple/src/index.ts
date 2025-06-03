@@ -1,4 +1,4 @@
-import { example, Person } from '@madooei/example-package';
+import { example, type Person } from '@madooei/example-package';
 
 const person: Person = {
   name: 'Alice',
