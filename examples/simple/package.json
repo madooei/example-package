@@ -4,7 +4,6 @@
   "private": true,
   "type": "module",
   "description": "Minimal example usage of @madooei/example-package.",
-  "main": "index.ts",
   "scripts": {
     "start": "tsx --no-warnings ./src/index.ts",
     "build": "tsc",
