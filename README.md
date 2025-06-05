@@ -48,9 +48,9 @@ To set up a multi-root workspace:
 
 1. Open Visual Studio Code.
 2. Navigate to `File > Open Workspace from File...`.
-3. Select the `example-package-workspace.code-workspace` file located at the root of the repository. This action will open all specified folders in one workspace.
+3. Select the `example-package.code-workspace` file located at the root of the repository. This action will open all specified folders in one workspace.
 
-The `example-package-workspace.code-workspace` file can be customized to include different folders or settings. Here's a typical configuration:
+The `example-package.code-workspace` file can be customized to include different folders or settings. Here's a typical configuration:
 
 ```json
 {
