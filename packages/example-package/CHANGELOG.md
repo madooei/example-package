@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/madooei/example-package/compare/v1.3.0...v1.4.0) (2025-06-20)
+
+
+### Features
+
+* add 'docs' folder to workspace configuration ([12e6bd0](https://github.com/madooei/example-package/commit/12e6bd0e8cacb82e9c00a67184714bac46cfec40))
+* add comprehensive TypeScript setup guide with installation and configuration details ([7dfb9ae](https://github.com/madooei/example-package/commit/7dfb9ae29367b76945399202faa9ce1a86dc47cf))
+* create Vitest playground with initial setup, tests, and configuration ([3ffecb9](https://github.com/madooei/example-package/commit/3ffecb9d4cc712039d2405c5eda43d10b20b1219))
+* initialize empty TypeScript playground with configuration and example code ([2c8b494](https://github.com/madooei/example-package/commit/2c8b494f1773eede189329db24a933abaf89d2f9))
+* refine TypeScript imports and update configuration for improved compatibility ([cdc4f5f](https://github.com/madooei/example-package/commit/cdc4f5f62d283025f45ee7c4b64090154b636e70))
+* remove main entry point from package.json ([54b9624](https://github.com/madooei/example-package/commit/54b96243262d554a856510d5987257dd649b6c0f))
+* update configuration files and improve code formatting ([1e09dac](https://github.com/madooei/example-package/commit/1e09dacf2326e2b57dd0f4a831c67e544a5c5e46))
+* update example package configuration and add demo code ([f9f89fa](https://github.com/madooei/example-package/commit/f9f89fa571941d4af612c8e877049d471c2d9a13))
+* update GitHub Actions workflow for release and publish process ([a7fefde](https://github.com/madooei/example-package/commit/a7fefde3cd7841154a1e1af42cbb98530631a594))
+* update launch configuration for improved debugging experience ([9a7e337](https://github.com/madooei/example-package/commit/9a7e33740e64bcc5a8b87d7e5b5d9f657c1b6398))
+* update Prettier configuration and update formatting scripts ([dc1ce3a](https://github.com/madooei/example-package/commit/dc1ce3a4b9658f1558b76d1511e39250c7cb16ae))
+* update README and scripts for Hello World example; add initial TypeScript code ([bb43eb4](https://github.com/madooei/example-package/commit/bb43eb4d10c43553db9db4659dc694674064ec1b))
+* update TypeScript configuration for improved module handling and target settings ([673a03a](https://github.com/madooei/example-package/commit/673a03aee7dee985afa9a5698e94f44df3aae1f5))
+
+
+### Bug Fixes
+
+* update workspace file name in README for accuracy ([7c2c882](https://github.com/madooei/example-package/commit/7c2c882df0d3ac3bdc97acbd929734813f229896))
+
 ## [1.3.0](https://github.com/madooei/example-package/compare/v1.2.0...v1.3.0) (2025-06-02)
 
 ### Features
