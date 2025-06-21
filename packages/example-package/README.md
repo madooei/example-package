@@ -51,85 +51,20 @@ A minimal TypeScript package template that can be used both locally and publishe
 - `npm run clean:all` - Clean the package and all dependencies (remove dist, coverage, and node_modules)
 - `npm run release` - Create a new release (bump version, update changelog, create tag)
 
-## Release & Publish Workflow
+## Package Management
 
-### Automated Versioning and Changelog
+> [!TIP]
+> For detailed information about package publishing, versioning, and local development workflows, see the [NPM Package Management Guide](../../docs/guides/npm-package.md).
 
-This package uses [`standard-version`](https://github.com/conventional-changelog/standard-version) to automate versioning and changelog updates. To create a new release:
+### Quick Reference
 
-1. Make sure all your changes are committed.
+- `npm run release` - Create automated release with versioning and changelog
+- `npm publish` - Publish to NPM (after building)
+- `npm link` - Create global symlink for local development
 
-2. Run:
+### Package Scope
 
-   ```bash
-   npm run release
-   ```
+This package uses the npm scope `@madooei`. When using this template:
 
-   This will:
-
-   - Bump the version in `package.json` according to your commit messages (using [Conventional Commits](https://www.conventionalcommits.org/)).
-   - Update `CHANGELOG.md` with a summary of changes.
-   - Create a new Git tag for the release.
-
-3. Push your changes and tags:
-
-   ```bash
-   git push && git push --tags
-   ```
-
-### Publishing to NPM via GitHub Actions
-
-This repository is set up to publish the package to NPM automatically using GitHub Actions:
-
-- **When does it publish?**
-
-  - When you create a new GitHub Release (from the GitHub UI or by pushing a tag and creating a release), or
-  - When you manually trigger the workflow from the GitHub Actions tab.
-
-- **What does it do?**
-  - Installs dependencies, runs all validation (type-check, lint, format, tests), builds the package, and publishes to NPM if all checks pass.
-
-> [!NOTE]
-> You must add your NPM token as a secret named `NPM_TOKEN` in your GitHub repository settings for publishing to work.
-
-### Publishing to NPM Manually
-
-Make sure you have a NPM account and are logged in (you can use `npm login` to do this). Then, in this directory, follow these steps:
-
-1. Build the package:
-
-   ```bash
-   npm run build
-   ```
-
-2. Publish to NPM:
-
-   ```bash
-   npm publish
-   ```
-
-Now anyone can install the package from NPM:
-
-```bash
-npm install @madooei/example-package
-```
-
-## Package Name and Scope
-
-This package uses the npm scope `@madooei` which is my personal npm account. When using this template for your own package:
-
-1. Change the package name in `package.json`:
-
-   ```json
-   {
-     "name": "@your-scope/your-package-name"
-   }
-   ```
-
-2. To publish a scoped package:
-   - Create an npm account if you haven't already
-   - Create your scope (can be your npm username)
-   - When first publishing: `npm publish --access public`
-
-> [!NOTE]
-> Private scoped packages require a paid npm account. Public scoped packages are free but must be explicitly published with `--access public`.
+1. Change the package name in `package.json` to `@your-scope/your-package-name`
+2. For first publish of scoped packages: `npm publish --access public`
