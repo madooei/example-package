@@ -1,6 +1,6 @@
 # Documentation
 
-- The `index.md` is a symlink to the main package [`README.md`](../example-package-workspace/packages/README.md) file, which serves as the main entry point for usage guides for end users and developers.
+- The `index.md` is automatically synced from the main package [`README.md`](../packages/example-package/README.md) file via GitHub Actions, which serves as the main entry point for usage guides for end users and developers.
 - Read the [Project Roadmap](ROADMAP.md) for project goals, status, evolution, and development guidelines.
 - Read the [Development Guide](DEVELOPMENT.md) for detailed information on the package architecture, build configuration, and implementation patterns.
 - Follow the [Contributing Guide](CONTRIBUTING.md) for contribution guidelines, coding standards, and best practices.
