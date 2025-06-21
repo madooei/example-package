@@ -105,17 +105,14 @@ If you prefer manual control over publishing:
 - **MINOR**: New features, backward compatible (1.4.2 → 1.5.0)
 - **MAJOR**: Breaking changes (1.4.2 → 2.0.0)
 
-**Automated Versioning with standard-version:**
+**Automated Versioning with release-it:**
 
 ```bash
-# Analyzes commit messages and bumps version accordingly
+# Analyzes commits, bumps version, updates changelog, and publishes
 npm run release
-
-# Push changes and tags
-git push && git push --tags
 ```
 
-This approach uses [Conventional Commits](https://www.conventionalcommits.org/) to automatically determine version bumps and generate changelogs.
+This approach uses [Conventional Commits](https://www.conventionalcommits.org/) to automatically determine version bumps and generates changelogs. Release-it is a modern, actively maintained alternative to standard-version with the same familiar workflow.
 
 ## Local Development (Without Publishing)
 
