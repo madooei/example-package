@@ -4,21 +4,19 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [1.5.0](https://github.com/madooei/example-package/compare/v1.4.0...v1.5.0) (2025-06-21)
 
-
 ### Features
 
-* add NPM Package Management Guide and update local development instructions in README ([132ffb9](https://github.com/madooei/example-package/commit/132ffb9c23127e606f092b04c779bfad45f9a7f0))
-* add README files for documentation, examples, packages, and playgrounds ([d222a00](https://github.com/madooei/example-package/commit/d222a007b44361441f7d532bd961238fe3693992))
-* enhance Jekyll configuration by adding symlink support and including packages directory ([a52df91](https://github.com/madooei/example-package/commit/a52df91f581d5069b382310fea01cfa70af2464f))
-* restructure documentation by adding CONTRIBUTING, DEVELOPMENT, and ROADMAP guides for improved clarity and guidance ([6ee01ab](https://github.com/madooei/example-package/commit/6ee01abb85299390c98c0706b08ccb6f177a515e))
-
+- add NPM Package Management Guide and update local development instructions in README ([132ffb9](https://github.com/madooei/example-package/commit/132ffb9c23127e606f092b04c779bfad45f9a7f0))
+- add README files for documentation, examples, packages, and playgrounds ([d222a00](https://github.com/madooei/example-package/commit/d222a007b44361441f7d532bd961238fe3693992))
+- enhance Jekyll configuration by adding symlink support and including packages directory ([a52df91](https://github.com/madooei/example-package/commit/a52df91f581d5069b382310fea01cfa70af2464f))
+- restructure documentation by adding CONTRIBUTING, DEVELOPMENT, and ROADMAP guides for improved clarity and guidance ([6ee01ab](https://github.com/madooei/example-package/commit/6ee01abb85299390c98c0706b08ccb6f177a515e))
 
 ### Bug Fixes
 
-* correct formatting of the MIT License header in LICENSE file ([7d4c93b](https://github.com/madooei/example-package/commit/7d4c93bdda9b92216fddd2ec3c3e5f7b9231a4b5))
-* correct link formatting in README documentation for clarity ([84c6e7a](https://github.com/madooei/example-package/commit/84c6e7a6eb80c00795fc17e91bb900f440cb319e))
-* update branch name in CONTRIBUTING.md from 'main' to 'master' ([a126e83](https://github.com/madooei/example-package/commit/a126e8317e7c8ec3c3a1be0b9199769cadd41ce0))
-* update formatting and structure in index.md for clarity and consistency ([f77a283](https://github.com/madooei/example-package/commit/f77a28346e9841b0b302c6d81aed17e9e53339f8))
+- correct formatting of the MIT License header in LICENSE file ([7d4c93b](https://github.com/madooei/example-package/commit/7d4c93bdda9b92216fddd2ec3c3e5f7b9231a4b5))
+- correct link formatting in README documentation for clarity ([84c6e7a](https://github.com/madooei/example-package/commit/84c6e7a6eb80c00795fc17e91bb900f440cb319e))
+- update branch name in CONTRIBUTING.md from 'main' to 'master' ([a126e83](https://github.com/madooei/example-package/commit/a126e8317e7c8ec3c3a1be0b9199769cadd41ce0))
+- update formatting and structure in index.md for clarity and consistency ([f77a283](https://github.com/madooei/example-package/commit/f77a28346e9841b0b302c6d81aed17e9e53339f8))
 
 ## [1.4.0](https://github.com/madooei/example-package/compare/v1.3.0...v1.4.0) (2025-06-20)
 

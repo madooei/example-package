@@ -123,9 +123,10 @@ npm run release
 ```
 
 This single command will:
+
 - Validate your code with the full validation pipeline
 - Analyze commits to determine version bump
-- Update package.json version and changelog  
+- Update package.json version and changelog
 - Build the package
 - Create and push git tag
 - Create GitHub release
