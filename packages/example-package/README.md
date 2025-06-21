@@ -116,7 +116,7 @@ npm install
 
 ## Package Management
 
-When you are ready to publish your package, you can use the following these steps: 
+When you are ready to publish your package, you can use the following these steps:
 
 1. Run `npm run validate` to ensure everything is in order.
 2. Build the package with `npm run build`.
