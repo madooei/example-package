@@ -1,10 +1,1 @@
 theme: jekyll-theme-hacker
-
-# Enable symlink support
-safe: false
-plugins:
-  - jekyll-relative-links
-  
-# Include the packages directory so Jekyll can access the symlinked content
-include:
-  - ../packages
