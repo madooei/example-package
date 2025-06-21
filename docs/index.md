@@ -110,22 +110,27 @@ cd packages/example-package
 npm install
 ```
 
-- Read the [Project Roadmap](ROADMAP.md) for project goals, status, evolution, and development guidelines.
+- Read the [Project Roadmap](../../docs/ROADMAP.md) for project goals, status, evolution, and development guidelines.
 - Read the [Development Guide](DEVELOPMENT.md) for detailed information on the package architecture, build configuration, and implementation patterns.
-- Follow the [Contributing Guide](CONTRIBUTING.md) for contribution guidelines, coding standards, and best practices.
+- Follow the [Contributing Guide](../../docs/CONTRIBUTING.md) for contribution guidelines, coding standards, and best practices.
 
 ## Package Management
 
-When you are ready to publish your package, you can use the following these steps:
+When you are ready to publish your package:
 
-1. Run `npm run validate` to ensure everything is in order.
-2. Build the package with `npm run build`.
-3. Run `npm run release` to create a new release, which will:
-   - Bump the version in `package.json`
-   - Update the changelog
-   - Create a Git tag
-4. Push the changes to your repository `git push --follow-tags origin master`
-5. This will trigger the GitHub Actions workflow to publish the package to NPM.
+```bash
+npm run release
+```
+
+This single command will:
+
+- Validate your code with the full validation pipeline
+- Analyze commits to determine version bump
+- Update package.json version and changelog
+- Build the package
+- Create and push git tag
+- Create GitHub release
+- Publish to NPM
 
 > [!TIP]
 > For detailed information about package publishing, versioning, and local development workflows, see the [NPM Package Management Guide](../../docs/guides/npm-package.md).
